@@ -5,4 +5,11 @@ terraform {
       version = "1.13.0"
     }
   }
+    cloud {
+    organization = "sebbycorp"
+
+    workspaces {
+      name = "f5"
+    }
+  }
 }
